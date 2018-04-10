@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="DE2_70_Character_Display">
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE2_70_Character_Display|de2_70:NiosII|de2_70_Dual_Clock_FIFO:dual_clock_fifo|dcfifo:Data_FIFO" CBX_FILE_NAME="dcfifo_5oj1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE2_70_Character_Display|de2_70:NiosII|de2_70_Onchip_Memory:onchip_memory|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_8fc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE2_70_Character_Display|de2_70:NiosII|de2_70_CPU:cpu|de2_70_CPU_nios2_oci:the_de2_70_CPU_nios2_oci|de2_70_CPU_nios2_ocimem:the_de2_70_CPU_nios2_ocimem|de2_70_CPU_ociram_sp_ram_module:de2_70_CPU_ociram_sp_ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_k471.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE2_70_Character_Display|de2_70:NiosII|de2_70_CPU:cpu|de2_70_CPU_register_bank_a_module:de2_70_CPU_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_gnf1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE2_70_Character_Display|de2_70:NiosII|de2_70_CPU:cpu|de2_70_CPU_register_bank_b_module:de2_70_CPU_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_hnf1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE2_70_Character_Display|de2_70:NiosII|de2_70_Char_Buffer_with_DMA:char_buffer_with_dma|altera_up_video_128_character_rom:Character_Rom|altsyncram:character_data_rom" CBX_FILE_NAME="altsyncram_e5i1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE2_70_Character_Display|de2_70:NiosII|de2_70_Char_Buffer_with_DMA:char_buffer_with_dma|altsyncram:Char_Buffer_Memory" CBX_FILE_NAME="altsyncram_4272.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
